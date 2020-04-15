@@ -1,7 +1,7 @@
 import websockets
 
 
-async def ws_connect(host_ip, session_token):
+async def ws_connect(host_ip, session_token) -> websockets.WebSocketClientProtocol:
     """
     Connect is an async function that returns a connected Eva websocket
 

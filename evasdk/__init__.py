@@ -70,6 +70,7 @@ Useful when you don't want the managed websocket connection provided by the evas
 from .Eva import Eva
 from .eva_http_client import EvaHTTPClient
 from .eva_ws import ws_connect
+from .eva_state import EvaState
 from .robot_state import RobotState
 from .helpers import strip_ip
 from .eva_errors import (

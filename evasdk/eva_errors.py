@@ -18,6 +18,10 @@ class EvaServerError(EvaError, Exception):
     """Error thrown when Eva returns an internal server error"""
 
 
+class EvaConnectionError(EvaError, Exception):
+    """Error thrown when cannot connect to Eva over the network"""
+
+
 class EvaDisconnectionError(EvaError, Exception):
     """Error thrown when Eva websocket connection is closed"""
 
